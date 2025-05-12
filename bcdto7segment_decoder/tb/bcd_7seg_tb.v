@@ -24,7 +24,7 @@ module bcd_7seg_tb;
     reg  [3:0] bcd;        // Input to the DUT (Device Under Test)
     wire [6:0] seg;        // Output from the DUT
 
-    // Instantiate the decoder
+    
     bcd_7segment dut (
         .bcd(bcd),
         .seg(seg)
