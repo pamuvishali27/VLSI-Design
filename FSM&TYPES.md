@@ -1,11 +1,11 @@
-**Finite State Machine**
+-**Finite State Machine**
 A Finite State Machine (FSM) is a mathematical model that is used to explain and understand the behavior of a digital system.
 More specifically, it is a structured and systematic model that helps to understand the behavior of a sequential circuit 
 that exists in a finite number of states at a given point of time.In more simple words, a synchronous sequential circuit
 is also called as Finite State Machine FSM, if it has a finite number of states.The transition of these finite states 
 takes place based on the internal or external inputs that results in the predictable and systematic changes in the behavior of the system.
 
-###Components of a Finite State Machine:
+### Components of a Finite State Machine:
 
 Finite States-
 The finite states are nothing but the distinct modes or conditions in the given system. 
@@ -30,25 +30,25 @@ The results produced by the system as per the inputs and current states are know
 These outputs of the system can be used to trigger events, control actuators, or to provide feedback to the external environment.
 
 ### Types of Finite State Machine: 
-There are two types of finite state machines namely,
 
+There are two types of finite state machines namely,
 -Mealy State Machine
 -Moore State Machine
 
-Mealy State Machine:
+## Mealy State Machine:
 A Finite State Machine is said to be a Mealy state machine, if its outputs depend on both present inputs & present states.
 There are two main parts presents in the Mealy state machine. Those are combinational logic circuit and memory element. 
 The memory element is useful to provide some part of previous outputs and present states as inputs to the combinational logic circuit.
 Based on the present inputs and present states, the Mealy state machine produces outputs. Therefore, the outputs will be valid only 
 at positive or negative transition of the clock signal.
 
-Moore State Machine
+## Moore State Machine
 A Finite State Machine is said to be a Moore state machine, if its outputs depend only on the present states.
 There are two parts presents in a Moore state machine. Those are combinational logic and memory.
 In this case, the present inputs and present states determine the next states. So, based on next states, Moore state machine produces the outputs. 
 Therefore, the outputs will be valid only after transition of the state.
 
-Advantages of Finite State Machine :
+## Advantages of Finite State Machine :
 -Finite state machines provide a simple and systematic way to model and understand the behavior of digital systems with discrete finite states and transitions between them.
 -Finite state machines support modular designs that help to breakdown the complex digital systems into smaller components. 
   Each component of the finite state machine can represent a specific task of the entire system. This allows for easier design, testing, and maintenance.
@@ -61,7 +61,7 @@ Advantages of Finite State Machine :
 -Finite state machines are versatile tools in the field of digital electronics and computer science,as they find their applications in various fields
   such as digital system design, control system design, software development, development of artificial intelligence, etc.
 
-Applications of Finite State Machine:
+## Applications of Finite State Machine:
 -Finite state machines are commonly used in designing and implementation of different types of sequential logic circuits, such as digital counters,
    timers, control units, etc.
 -Finite state machines are used in digital control systems to control and regulate the behavior of complex automated systems, like robots, 
