@@ -1,11 +1,11 @@
-** Finite State Machine **
+**Finite State Machine**
 A Finite State Machine (FSM) is a mathematical model that is used to explain and understand the behavior of a digital system.
 More specifically, it is a structured and systematic model that helps to understand the behavior of a sequential circuit 
 that exists in a finite number of states at a given point of time.In more simple words, a synchronous sequential circuit
 is also called as Finite State Machine FSM, if it has a finite number of states.The transition of these finite states 
 takes place based on the internal or external inputs that results in the predictable and systematic changes in the behavior of the system.
 
-Components of a Finite State Machine:
+###Components of a Finite State Machine:
 
 Finite States-
 The finite states are nothing but the distinct modes or conditions in the given system. 
@@ -29,7 +29,8 @@ Outputs-
 The results produced by the system as per the inputs and current states are known as outputs. 
 These outputs of the system can be used to trigger events, control actuators, or to provide feedback to the external environment.
 
-### Types of Finite State Machine: There are two types of finite state machines namely,
+### Types of Finite State Machine: 
+There are two types of finite state machines namely,
 
 -Mealy State Machine
 -Moore State Machine
